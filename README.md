@@ -146,20 +146,6 @@ Your page should be:
 
 ---
 
-## 📁 Suggested File Structure
-
-virtual-resume/
-│
-├── index.html
-├── style.css
-└── images/
-    └── profile.jpg
-```
-
----
-
----
-
 ## Stretch Challenges
 
 Push yourself further:
