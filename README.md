@@ -1,11 +1,5 @@
 # Virtual Resume Landing Page
 
-Build a clean, professional **single-page resume website** using **HTML and CSS only**.
-
-This project is designed to help you practice structuring content, styling layouts, and presenting yourself as a developer through a polished personal brand page.
-
----
-
 ## Project Overview
 
 You will create a **virtual resume landing page** that highlights:
