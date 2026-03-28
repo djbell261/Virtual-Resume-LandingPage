@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Derwin's Projects</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="projects.css" />
+  <title>Projects | Derwin Bell</title>
 </head>
-<body>
-    
+<body class="project-theme-0">
+  <header class="site-header">
+    <nav class="navbar-container">
+      <a href="index.html" class="logo">DB</a>
+
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="projects-page fade-in">
+    <section class="projects-hero">
+      <div class="projects-hero-inner">
+        <p class="projects-eyebrow">Selected Work</p>
+        <h1 class="projects-title">Projects I’m building.</h1>
+        <p class="projects-subtitle">
+          A mix of backend systems, Java applications, engineering simulations,
+          and problem-solving work that shows how I think and build.
+        </p>
+      </div>
+    </section>
+
+    <section class="project-carousel-section">
+      <div class="carousel-shell">
+        <button class="carousel-btn" id="prevBtn" aria-label="Previous project">←</button>
+
+        <div class="carousel-track" id="carouselTrack"></div>
+
+        <button class="carousel-btn" id="nextBtn" aria-label="Next project">→</button>
+      </div>
+
+      <div class="project-details" id="projectDetails">
+        <p class="detail-label" id="detailLabel"></p>
+        <h3 class="detail-title" id="detailTitle"></h3>
+        <p class="detail-description" id="detailDescription"></p>
+
+        <div class="detail-meta">
+          <div class="meta-block">
+            <h4>Tech Stack</h4>
+            <p id="detailTech"></p>
+          </div>
+
+          <div class="meta-block">
+            <h4>Focus</h4>
+            <p id="detailFocus"></p>
+          </div>
+
+          <div class="meta-block">
+            <h4>Status</h4>
+            <p id="detailStatus"></p>
+          </div>
+        </div>
+
+        <a
+          id="detailLink"
+          class="github-link"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View GitHub
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="about-footer">
+  <div class="about-footer-inner">
+    <div class="footer-main">
+      <h2 class="footer-name">Derwin Bell</h2>
+      <p class="footer-role">Software Engineer / Backend Developer / Systems-Focused Builder</p>
+    </div>
+
+    <div class="footer-contact">
+      <a href="mailto:djbell261@gmail.com">djbell261@gmail.com</a>
+      <p>Wilmington, Delaware</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/derwin-bell-666336256" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <span>/</span>
+      <a href="https://github.com/djbell261" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <span>/</span>
+      <a href="projects.html">Projects</a>
+    </div>
+
+    <p class="footer-note">
+      Handcrafted with
+      <img src="images/star.gif" class="footer-icon" alt="star" loading="lazy">
+      by Derwin Bell
+    </p>
+  </div>
+</footer>
+
+  <script src="projects.js"></script>
 </body>
 </html>
