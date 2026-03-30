@@ -1,8 +1,8 @@
 const projects = [
   {
     label: "Project 01",
-    shortTitle: "Health Monitoring",
-    title: "Distributed Health Monitoring & Alerting System",
+    shortTitle: "LabWatch Platform",
+    title: "LabWatch",
     subtitle: "Backend Systems",
     description:
       "LabWatch Platform is a distributed, event-driven monitoring system that simulates real-world infrastructure alerting workflows. Built with Spring Boot microservices and Apache Kafka, it ingests machine telemetry, processes events asynchronously, and manages alert lifecycles with deduplication and state transitions (ACTIVE → RESOLVED). The system is containerized with Docker and backed by PostgreSQL for scalable, production-style deployment.",
