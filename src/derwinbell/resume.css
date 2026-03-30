@@ -191,7 +191,7 @@ body {
   max-width: 820px;
 }
 
-/* ===== EDUCATION (DIFFERENT STYLE) ===== */
+/* EDUCATION */  
 .education-section {
   background: #e5e7eb; /* slightly lighter than experience */
   padding: 6rem 2rem;
@@ -211,7 +211,7 @@ body {
   max-width: 700px;
 }
 
-/* Smaller + cleaner hierarchy */
+/* Smaller*/
 .edu-date {
   font-size: 0.9rem;
   color: #6b7280;
@@ -230,7 +230,7 @@ body {
   color: #4b5563;
 }
 
-/* ===== SKILLS / CERTS DARK SECTION ===== */
+/* SKILLS / CERTS */
 .skills-section {
   background: #05070b;
   padding: 7rem 2rem;
@@ -261,12 +261,12 @@ body {
   margin-bottom: 0.55rem;
 }
 
-/* ===== OPTIONAL CERT LIST SPACING ===== */
+
 .skills-column .cert-item {
   margin-bottom: 0.85rem;
 }
 
-/* ===== RESPONSIVE ===== */
+/*  RESPONSIVE */
 @media (max-width: 900px) {
   .navbar-container,
   .resume-hero,

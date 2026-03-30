@@ -46,7 +46,7 @@ body.project-theme-3 {
   background: linear-gradient(180deg, #25130d 0%, #4c2819 100%);
 }
 
-/* ===== HEADER ===== */
+/* Header */
 .site-header {
   position: sticky;
   top: 0;
@@ -101,7 +101,7 @@ body.project-theme-3 {
   background: #38d9e6;
 }
 
-/* ===== HERO ===== */
+/* Hero */
 .projects-hero {
   padding: 6rem 2rem 2rem;
 }
@@ -135,7 +135,7 @@ body.project-theme-3 {
   color: rgba(255, 255, 255, 0.82);
 }
 
-/* ===== CAROUSEL ===== */
+/*  Carousel */
 .project-carousel-section {
   padding: 2rem 2rem 6rem;
 }
@@ -278,7 +278,7 @@ body.project-theme-3 {
   opacity: 0;
 }
 
-/* ===== DETAILS BELOW ===== */
+/* DETAILS */
 .project-details {
   max-width: 980px;
   margin: 0 auto;
@@ -364,7 +364,7 @@ body.project-theme-3 {
   }
 }
 
-/* ===== MOBILE ===== */
+/* Mobile */
 @media (max-width: 900px) {
   .navbar-container,
   .projects-hero,
@@ -441,7 +441,7 @@ body.project-theme-3 {
   }
 }
 
-/* ===== FOOTER ===== */
+/* Footer */
 .about-footer {
   background: #02040a;
   padding: 7rem 2rem 5rem;

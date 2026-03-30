@@ -5,11 +5,11 @@ const projects = [
     title: "Distributed Health Monitoring & Alerting System",
     subtitle: "Backend Systems",
     description:
-      "A distributed backend system designed to monitor machine health events, process system metrics, and generate alerts when thresholds are exceeded. Built to reflect real-world monitoring, event handling, and alert lifecycle behavior.",
-    tech: "Java, Spring Boot, PostgreSQL, JPA, Distributed Systems",
+      "LabWatch Platform is a distributed, event-driven monitoring system that simulates real-world infrastructure alerting workflows. Built with Spring Boot microservices and Apache Kafka, it ingests machine telemetry, processes events asynchronously, and manages alert lifecycles with deduplication and state transitions (ACTIVE → RESOLVED). The system is containerized with Docker and backed by PostgreSQL for scalable, production-style deployment.",
+    tech: "Java, Spring Boot, Apache Kafka, PostgreSQL, Hibernate (JPA), Docker, Maven, Event-Driven Microservices Architecture",
     focus: "Backend architecture, event processing, alert lifecycle management",
     status: "In Progress",
-    link: "https://github.com/djbell261",
+    link: "https://github.com/djbell261/labwatch-platform.git",
     image: "images/Systems.png"
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     tech: "Java, Data Structures, Algorithms, GitHub",
     focus: "Problem solving, coding patterns, technical interview prep",
     status: "Ongoing",
-    link: "https://github.com/djbell261",
+    link: "https://github.com/djbell261/My-LeetCode-Solutions.git",
     image: "images/LeetCode.png"
   }
 ];
